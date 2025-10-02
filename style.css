@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     height: 100vh;
@@ -15,4 +21,28 @@ body {
 
 .caixa-principal {
     width: 40%;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.caixa-video-mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.mascara-video {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    
 }
